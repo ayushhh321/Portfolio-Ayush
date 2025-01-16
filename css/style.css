@@ -276,7 +276,7 @@ h3.hello {
     margin: 15px 0;
 }
 h3.hello span {
-    font-family: 'Clicker Script' , cursive;
+    /* font-family: 'Clicker Script' , cursive; */
     font-size: 30px;
     font-weight: 700;
     color: var(--skin-color);
@@ -316,8 +316,8 @@ h3.my-profession {
     width: 80px;
     border-top: 10px solid var(--skin-color);
     border-left: 10px solid var(--skin-color);
-    left: -20px;
-    top: -40px;
+    left: -60px;
+    top: 28px;
 }
 .home .home-img img {
     margin: auto;

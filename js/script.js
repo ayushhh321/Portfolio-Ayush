@@ -1,10 +1,10 @@
 /* typing animation */
-var typed = new Typed(".typing",{
-    strings:["","a Tech Enthusiast","an Explorer","a Learner"],
-    typeSpeed:100,
-    BackSpeed:60,
-    loop:true
-})
+// var typed = new Typed(".typing",{
+//     //strings:["","a Tech Enthusiast","an Explorer","a Learner"],
+//     typeSpeed:100,
+//     BackSpeed:60,
+//     loop:true
+// })
 
 document.addEventListener("DOMContentLoaded", function() {
     // Wait for the entire page to load including images and styles
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById('content').style.opacity = '1';
                 document.body.style.overflow = 'auto'; // Restore scroll
             });
-        }, 3000); // 3000 milliseconds = 3 seconds
+        }, 0); // 3000 milliseconds = 3 seconds
     });
 });
 
