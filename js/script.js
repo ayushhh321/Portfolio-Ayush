@@ -1,10 +1,4 @@
-/* typing animation */
-// var typed = new Typed(".typing",{
-//     //strings:["","a Tech Enthusiast","an Explorer","a Learner"],
-//     typeSpeed:100,
-//     BackSpeed:60,
-//     loop:true
-// })
+
 
 document.addEventListener("DOMContentLoaded", function() {
     // Wait for the entire page to load including images and styles
